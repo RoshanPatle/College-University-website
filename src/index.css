@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Montserrat:wght@300;400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&family=Oswald:wght@400;500;600;700&family=Outfit:wght@100..900&family=Poppins&family=Roboto:ital,wght@0,300;0,400;1,100;1,400&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Outfit", sans-serif;
+overflow-x: hidden;
+}
+
+body{
+  background-color:#f5f5f5;
+}
+
+a{
+  cursor: pointer;
+}
+
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn{
+  background-color: #fff;
+  padding: 14px 25px;
+  font-size: 16px;
+border-radius: 30px;
+border: 0;
+outline: 0;
+color: #212121;
+cursor: pointer;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.btn img{
+  width: 20px;
+  margin-left: 10px;
+}
+
+.btn.dark-btn{
+  background-color: rgb(52, 52, 255);
+  color: white;
+}
+
+
+/* -------------------------media queries-------------------*/
+
+
+
+@media(max-width:1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+ .btn{
+  padding: 14px 22px;
+ }
+  
+}
+

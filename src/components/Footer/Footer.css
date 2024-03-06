@@ -1,0 +1,38 @@
+
+.footer{
+    margin-bottom: 20px;
+}
+
+.footer hr{
+    margin-bottom: 20px;
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer-right{
+    display: flex; 
+    align-items: center;
+}
+.footer-right p{
+    margin-right: 20px;
+}
+
+
+/*---------------------media queries---------------*/
+ 
+@media(max-width:600px){
+    .footer-text{
+        display: block;
+        text-align: center;
+    }
+.footer-right{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    }
+}
